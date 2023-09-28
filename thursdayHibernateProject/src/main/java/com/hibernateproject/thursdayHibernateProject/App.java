@@ -30,6 +30,7 @@ public class App  //main class
        // one to one   mapping     
         // passing the object of project in student
         c1.setProd(p1);
+        p1.setCust(c1);
         // opening the session
         Session session=factory.openSession(); 
         //starting the session
